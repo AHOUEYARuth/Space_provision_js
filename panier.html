@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panier</title>
+    <link rel="stylesheet" href="sytle.css">
+    <link rel="shortcut icon" href="images/sletter.jpg" type="image/pgn">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header_content">
+                <a href="index.html"><h2>SpaceProvision</h2></a>
+               <!--  <form action="">
+                    <input type="text" name="recherche" placeholder="Chercez un produit">
+                    <div class="rech"><img src="images/loupe_109164 (2).png" alt="icone de recherche" id="icon_rech" ></div>
+                </form> -->
+                <div class="menu">
+                    <ul class="menu_list">
+                        <li><a href="/inscription.html">Se connecter</a></li> 
+                        <a href="panier.html"><li><img src="images/diagram-61_24456.webp" alt="" id="cart"></li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner">
+            <div class="container">
+                <h1>Votre Panier</h1>
+            </div>
+        </section>
+        <section class="catalogue">
+            <div class="container">
+                <div class="panier-content">
+                    <div class="products" id="cart-items">
+                        <!-- Les articles du panier seront insérés ici -->
+                    </div>
+                    <div class="panier-paiement">
+                        <p>Livraison gratuite à Space of the Provision</p><hr>
+                        <div class="prix"></div>
+                        <div class="produit-total">
+                            <div>Prix total : </div>
+                            <div id="montant"></div>
+                        </div>
+                        <button type="submit" id="bouton">Passez à la caisse</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer_content">
+                <div class="livraison">
+                    <img src="images/livrai.webp" alt="" style="height: 70px;" id="liv">
+                     <div class="text">
+                        <h4>Livraison à domicile</h4>
+                        <p>Gratuite sur des milliers de produits</p>
+                    </div> 
+                </div>
+                <div class="marques">
+                    <ul>
+                       <li><a href="">Lenovo</a></li>
+                       <li><a href="">Apple</a></li>
+                       <li><a href="">Huawei</a></li>
+                       <li><a href="">Withings</a></li>
+                       <li><a href="">Skullcandy</a></li>
+                       <li><a href="">Technics</a></li>
+                       <li><a href="">Bose</a></li>
+                       <li><a href="">Suunto</a></li> 
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

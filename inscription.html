@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription SpaceProvision</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fichier.css">
+</head>
+<body id="body">
+    <a href="/"><h2>SpaceProvision</h2></a>
+    <div class="form">
+        <h3>Créer un compte</h3>
+        <form action="" id="field">
+            <label for="name">Nom & Prénoms</label>
+            <input type="text" id="name" placeholder="First name and last name">
+            <label for="mail">Numero de téléphone ou e-mail</label>
+            <input type="text"  id="mail">
+            <label for="init-password">Mot de passe</label>
+            <input type="password" id="init-password" placeholder="Au moins six caractères">
+            <label for="re-password">Confirmez le mot de passe</label>
+            <input type="password" id="re-password">
+            <div class="confirm"></div>
+            <button type="submit">Enrégistrer</button>
+        </form>
+    </div>
+    <div id="erreur_msg"></div>
+    <div class="modal">
+        <button id="button"><img src="images/close_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt=""></button>
+        <p>Félicitations <span id="user"></span> tu viens de créer ton compte avec succès chez SpaceProvision</p>
+        <a href="/connexion.html">Connectez-vous</a>
+    </div>
+    <script src="./insciption.js"></script>
+</body>
+</html>
